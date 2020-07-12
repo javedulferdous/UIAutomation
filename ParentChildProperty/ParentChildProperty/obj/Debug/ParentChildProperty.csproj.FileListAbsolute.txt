@@ -1,0 +1,6 @@
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\obj\Debug\ConsoleApplication3.exe
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\obj\Debug\ConsoleApplication3.pdb
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\bin\Debug\ConsoleApplication3.exe
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\bin\Debug\ConsoleApplication3.pdb
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ParentChildProperty\obj\Debug\ParentChildProperty.csprojResolveAssemblyReference.cache
