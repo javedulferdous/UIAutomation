@@ -37,17 +37,22 @@ namespace ParentChildProperty
         }*/
         #endregion
 
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
+            #region Title
+            // Set the Title to UI Automation 
+            Console.Title = "UI Automation";
+            #endregion
+
             try
             {
 
-                if (Process.GetProcessesByName("explorer.exe").Count() <= 0)
+                if (Process.GetProcessesByName("notepad.exe").Count() <= 0)
                 {
-                    Console.WriteLine("Launch explorer");
+                    Console.WriteLine("Launch notepad");
                 }
 
-                var mainForm = AutomationElement.FromHandle(Process.GetProcessesByName("explorer").First().MainWindowHandle);
+                var mainForm = AutomationElement.FromHandle(Process.GetProcessesByName("notepad").First().MainWindowHandle);
                 AutomationElement elementNode = TreeWalker.ControlViewWalker.GetFirstChild(mainForm);
                 Console.WriteLine("--------------Parent----------------");
                 Console.WriteLine("ClassName: {0}", mainForm.Current.ClassName);
