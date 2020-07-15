@@ -9,3 +9,9 @@ C:\Users\jafra\OneDrive\File & Document\Documents\GitHub\UIAutomation\ParentChil
 C:\Users\jafra\OneDrive\File & Document\Documents\GitHub\UIAutomation\ParentChildProperty\ParentChildProperty\bin\Debug\ConsoleApplication3.pdb
 C:\Users\jafra\OneDrive\File & Document\Documents\GitHub\UIAutomation\ParentChildProperty\ParentChildProperty\obj\Debug\ConsoleApplication3.exe
 C:\Users\jafra\OneDrive\File & Document\Documents\GitHub\UIAutomation\ParentChildProperty\ParentChildProperty\obj\Debug\ConsoleApplication3.pdb
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\bin\Debug\ConsoleApplication3.exe
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\bin\Debug\ConsoleApplication3.pdb
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\obj\Debug\ConsoleApplication3.exe
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\obj\Debug\ConsoleApplication3.pdb
+C:\Users\jafra\OneDrive\File & Document\Documents\Visual Studio 2013\Projects\ParentChildProperty\ParentChildProperty\obj\Debug\ParentChildProperty.csprojResolveAssemblyReference.cache

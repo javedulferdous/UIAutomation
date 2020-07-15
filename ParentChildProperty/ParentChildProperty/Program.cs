@@ -53,8 +53,7 @@ namespace ParentChildProperty
                 }
 
                 var mainForm = AutomationElement.FromHandle(Process.GetProcessesByName("notepad").First().MainWindowHandle);
-                AutomationElement elementNode = TreeWalker.ControlViewWalker.GetFirstChild(mainForm);
-                Console.WriteLine("--------------Parent----------------");
+                Console.WriteLine("--------------Parent--------------");
                 Console.WriteLine("ClassName: {0}", mainForm.Current.ClassName);
                 Console.WriteLine("Name: {0}", mainForm.Current.Name);
                 Console.WriteLine("IsContentElement: {0}", mainForm.Current.IsContentElement);
@@ -97,13 +96,14 @@ namespace ParentChildProperty
             */
                 #endregion
 
-                Console.WriteLine("--------------Child----------------");
+                Console.WriteLine("--------------Child--------------");
+                AutomationElement elementNode = TreeWalker.ControlViewWalker.GetFirstChild(mainForm);
                 while (elementNode != null)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Name: {0}", elementNode.Current.Name);
-                    Console.WriteLine("LocalizedControlType: {0}", elementNode.Current.ControlType.LocalizedControlType);
                     Console.WriteLine("ClassName: {0}", elementNode.Current.ClassName);
+                    Console.WriteLine("LocalizedControlType: {0}", elementNode.Current.ControlType.LocalizedControlType);
                     Console.WriteLine("IsContentElement: {0}", elementNode.Current.IsContentElement);
                     Console.WriteLine("IsControlElement: {0}", elementNode.Current.IsControlElement);
                     Console.WriteLine("HasKeyboardFocus: {0}", elementNode.Current.HasKeyboardFocus);
@@ -128,7 +128,41 @@ namespace ParentChildProperty
                     Console.WriteLine("ProcessId: {0}", elementNode.Current.ProcessId);
                     
                     Console.WriteLine();
+                   
+                    Console.WriteLine("--------------Branch--------------");
+                    AutomationElement tNode = TreeWalker.ControlViewWalker.GetFirstChild(elementNode);   
+                    while(tNode!=null)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Name: {0}", tNode.Current.Name);
+                        Console.WriteLine("ClassName: {0}", tNode.Current.ClassName);
+                        Console.WriteLine("LocalizedControlType: {0}", tNode.Current.ControlType.LocalizedControlType);
+                        Console.WriteLine("IsContentElement: {0}", tNode.Current.IsContentElement);
+                        Console.WriteLine("IsControlElement: {0}", tNode.Current.IsControlElement);
+                        Console.WriteLine("HasKeyboardFocus: {0}", tNode.Current.HasKeyboardFocus);
+                        Console.WriteLine("AcceleratorKey: {0}", tNode.Current.AcceleratorKey);
+                        Console.WriteLine("AccessKey: {0}", tNode.Current.AccessKey);
+                        Console.WriteLine("AutomationId: {0}", tNode.Current.AutomationId);
+                        Console.WriteLine("BoundingRectangle: {0}", tNode.Current.BoundingRectangle);
+                        Console.WriteLine("ControlType: {0}", tNode.Current.ControlType);
+                        Console.WriteLine("FrameworkId: {0}", tNode.Current.FrameworkId);
+                        Console.WriteLine("HelpText: {0}", tNode.Current.HelpText);
+                        Console.WriteLine("IsEnabled: {0}", tNode.Current.IsEnabled);
+                        Console.WriteLine("IsKeyboardFocusable: {0}", tNode.Current.IsKeyboardFocusable);
+                        Console.WriteLine("IsOffscreen: {0}", tNode.Current.IsOffscreen);
+                        Console.WriteLine("IsPassword: {0}", tNode.Current.IsPassword);
+                        Console.WriteLine("IsRequiredForForm: {0}", tNode.Current.IsRequiredForForm);
+                        Console.WriteLine("ItemStatus: {0}", tNode.Current.ItemStatus);
+                        Console.WriteLine("ItemType: {0}", tNode.Current.ItemType);
+                        Console.WriteLine("LabeledBy: {0}", tNode.Current.LabeledBy);
+                        Console.WriteLine("LocalizedControlType: {0}", tNode.Current.LocalizedControlType);
+                        Console.WriteLine("NativeWindowHandle: {0}", tNode.Current.NativeWindowHandle);
+                        Console.WriteLine("Orientation: {0}", tNode.Current.Orientation);
+                        Console.WriteLine("ProcessId: {0}", tNode.Current.ProcessId);
+                        tNode = TreeWalker.ControlViewWalker.GetNextSibling(tNode);
+                    }
                     elementNode = TreeWalker.ControlViewWalker.GetNextSibling(elementNode);
+                    Console.WriteLine("---------------------------------------");
                 }
                 
 
