@@ -1,0 +1,6 @@
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\bin\Debug\ParentChildProperty2.exe.config
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\obj\Debug\ParentChildProperty2.csprojResolveAssemblyReference.cache
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\bin\Debug\ParentChildProperty2.exe
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\bin\Debug\ParentChildProperty2.pdb
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\obj\Debug\ParentChildProperty2.exe
+C:\Users\jafra\OneDrive\Desktop\Research\UI Automation\Tree\ParentChildProperty2\ParentChildProperty2\obj\Debug\ParentChildProperty2.pdb
